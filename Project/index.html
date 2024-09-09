@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Restaurant Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Foodie.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to <span>Gourmet Delights</span></h1>
+            <p>Where every meal is a masterpiece.</p>
+            <a href="#menu" class="btn btn-primaryone">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Specialties</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="/Images/food-menu-1.png" alt="Dish 1">
+                <h3>Grilled Salmon</h3>
+                <p>Freshly caught salmon grilled to perfection, served with a side of steamed vegetables and lemon
+                    butter sauce.</p>
+                <span>$18.99</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="/Images/food-menu-2.png" alt="Dish 2">
+                <h3>Filet Mignon</h3>
+                <p>Succulent filet mignon cooked to perfection, served with garlic mashed potatoes and red wine
+                    reduction.</p>
+                <span>$24.99</span>
+            </div>
+
+            <div class="menu-item">
+                <img src="/Images/food-menu-4.png" alt="Dish 4">
+                <h3>Vegetarian Pizza</h3>
+                <p>Hand-tossed pizza topped with fresh vegetables, mozzarella, and our signature tomato sauce.</p>
+                <span>$12.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <h2>Featured Products</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <div class="badge">20% OFF</div>
+                <img src="Images/food-menu-1.png" alt="Product 1">
+                <h3>Gourmet Spices Set</h3>
+                <div class="rating">
+                    <span>★★★★★</span>
+                </div>
+                <p>A blend of aromatic spices perfect for gourmet cooking.</p>
+                <span class="price">$18.99</span>
+                <button class="btn btn-secondary">Add to Cart</button>
+                <button class="btn btn-primary">Order Now</button>
+            </div>
+            <div class="shop-item">
+                <div class="badge">15% OFF</div>
+                <img src="Images/food-menu-2.png" alt="Product 2">
+                <h3>Artisanal Honey</h3>
+                <div class="rating">
+                    <span>★★★★☆</span>
+                </div>
+                <p>Organic honey sourced from the finest farms.</p>
+                <span class="price">$12.99</span>
+                <button class="btn btn-secondary">Add to Cart</button>
+                <button class="btn btn-primary">Order Now</button>
+            </div>
+            <div class="shop-item">
+                <div class="badge">30% OFF</div>
+                <img src="Images/food-menu-3.png" alt="Product 3">
+                <h3>Chef's Kitchen Tools</h3>
+                <div class="rating">
+                    <span>★★★★★</span>
+                </div>
+                <p>High-quality tools for all your culinary needs.</p>
+                <span class="price">$24.99</span>
+                <button class="btn btn-secondary">Add to Cart</button>
+                <button class="btn btn-primary">Order Now</button>
+            </div>
+            <div class="shop-item">
+                <div class="badge">10% OFF</div>
+                <img src="Images/food-menu-4.png" alt="Product 4">
+                <h3>Extra Virgin Olive Oil</h3>
+                <div class="rating">
+                    <span>★★★★☆</span>
+                </div>
+                <p>Cold-pressed olive oil, rich in flavor and nutrition.</p>
+                <span class="price">$14.99</span>
+                <button class="btn btn-secondary">Add to Cart</button>
+                <button class="btn btn-primary">Order Now</button>
+            </div>
+            <div class="shop-item">
+                <div class="badge">25% OFF</div>
+                <img src="Images/food-menu-5.png" alt="Product 5">
+                <h3>Handcrafted Chocolates</h3>
+                <div class="rating">
+                    <span>★★★★★</span>
+                </div>
+                <p>Delicious chocolates made with the finest cocoa.</p>
+                <span class="price">$9.99</span>
+                <button class="btn btn-secondary">Add to Cart</button>
+                <button class="btn btn-primary">Order Now</button>
+            </div>
+            <div class="shop-item">
+                <div class="badge">15% OFF</div>
+                <img src="Images/food-menu-6.png" alt="Product 6">
+                <h3>Gourmet Tea Blend</h3>
+                <div class="rating">
+                    <span>★★★★☆</span>
+                </div>
+                <p>Exquisite tea blend with aromatic herbs and spices.</p>
+                <span class="price">$11.99</span>
+                <button class="btn btn-secondary">Add to Cart</button>
+                <button class="btn btn-primary">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews-container">
+            <div class="review">
+                <img src="/Images/avatar-1.jpg" alt="Customer 1">
+                <blockquote>"The food was absolutely amazing, and the service was outstanding! Highly recommend."
+                </blockquote>
+                <h3>- John Doe</h3>
+            </div>
+            <div class="review">
+                <img src="/Images/avatar-2.jpg" alt="Customer 2">
+                <blockquote>"A fantastic experience! The ambiance was perfect, and the dishes were exquisite."
+                </blockquote>
+                <h3>- Sarah Smith</h3>
+            </div>
+            <div class="review">
+                <img src="/Images/avatar-3.jpg" alt="Customer 3">
+                <blockquote>"One of the best dining experiences I've ever had. Everything was spot on!"</blockquote>
+                <h3>- James Lee</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-overlay"></div>
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>At Gourmet Delights, we take pride in crafting dishes that are not just meals but experiences. Our chefs
+                use only the freshest ingredients to create flavors that will leave a lasting impression. Whether you're
+                dining with us for a casual meal or a special occasion, you'll enjoy an atmosphere of warmth and
+                elegance.</p>
+            <a href="#menu" class="btn btn-secondary">Explore Our Menu</a>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Our Address</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Gourmet St., Foodie City, 56789</p>
+                <p><i class="fas fa-phone-alt"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> contact@gourmetdelights.com</p>
+
+                <h3>Opening Hours</h3>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 9am - 10pm</p>
+                <p><i class="fas fa-clock"></i> Sat-Sun: 10am - 11pm</p>
+
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gourmet Delights - All Rights Reserved</p>
+    </footer>
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
